@@ -80,10 +80,17 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Galeria.Designer.vb">
+      <DependentUpon>Galeria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Galeria.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +106,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Galeria.resx">
+      <DependentUpon>Galeria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -130,6 +140,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icono Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trxx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trxx1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trxx11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableta-grafica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dibujo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crayola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carro-de-la-compra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comercio-y-compras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recluta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contratar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inktober1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inktober11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inktober4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inktober12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inktober2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inktober3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inktober41.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
