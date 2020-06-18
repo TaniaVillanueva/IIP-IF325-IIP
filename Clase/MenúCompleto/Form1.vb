@@ -74,7 +74,14 @@ Public Class Form1
         frm.Show()
     End Sub
     Private Sub btnEmpleados_Click(sender As Object, e As EventArgs) Handles btnEmpleados.Click
-        abrirFormulario(New formGaleria)
+        abrirFormulario(New Galeria)
     End Sub
 
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        abrirFormulario(New Contratar)
+    End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        abrirFormulario(New Ilustrador)
+    End Sub
 End Class
