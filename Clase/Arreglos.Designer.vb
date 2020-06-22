@@ -22,6 +22,7 @@ Partial Class Arreglos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.btnPrecios = New System.Windows.Forms.Button()
@@ -51,11 +52,15 @@ Partial Class Arreglos
         Me.txtVender = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btnVender = New System.Windows.Forms.Button()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.errorValidacion = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.gbVentas.SuspendLayout()
+        CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -170,7 +175,7 @@ Partial Class Arreglos
         Me.GroupBox3.Size = New System.Drawing.Size(276, 183)
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "GroupBox3"
+        Me.GroupBox3.Text = "Buscar"
         '
         'btnBuscar
         '
@@ -333,6 +338,10 @@ Partial Class Arreglos
         Me.btnVender.Text = "Vender"
         Me.btnVender.UseVisualStyleBackColor = True
         '
+        'errorValidacion
+        '
+        Me.errorValidacion.ContainerControl = Me
+        '
         'Arreglos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -354,6 +363,7 @@ Partial Class Arreglos
         Me.GroupBox4.PerformLayout()
         Me.gbVentas.ResumeLayout(False)
         Me.gbVentas.PerformLayout()
+        CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -387,4 +397,7 @@ Partial Class Arreglos
     Friend WithEvents txtVender As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents btnVender As Button
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents errorValidacion As ErrorProvider
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
