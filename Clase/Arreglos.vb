@@ -204,4 +204,8 @@ Public Class Arreglos
         ToolTip1.ToolTipTitle = "Cantidad "
         ToolTip1.ToolTipIcon = ToolTipIcon.Info
     End Sub
+
+    Private Sub Arreglos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
