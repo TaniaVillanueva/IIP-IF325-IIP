@@ -11,4 +11,18 @@ Public Class FormAyuda
         ReleaseCapture()
         SendMessage(Me.Handle, &H112&, &HF012&, 0)
     End Sub
+
+
+    Private Sub PanelContenedor_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+
+    End Sub
 End Class
