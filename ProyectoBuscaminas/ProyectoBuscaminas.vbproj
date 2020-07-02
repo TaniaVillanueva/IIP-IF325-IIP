@@ -86,12 +86,6 @@
     <Compile Include="FormAyuda.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormContenidoAyuda.Designer.vb">
-      <DependentUpon>FormContenidoAyuda.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormContenidoAyuda.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,9 +112,6 @@
   <ItemGroup>
     <EmbeddedResource Include="FormAyuda.resx">
       <DependentUpon>FormAyuda.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormContenidoAyuda.resx">
-      <DependentUpon>FormContenidoAyuda.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -155,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\help-circle-solid-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

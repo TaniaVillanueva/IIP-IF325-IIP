@@ -23,6 +23,7 @@ Partial Class FormAyuda
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Ayuda = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -35,7 +36,6 @@ Partial Class FormAyuda
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Ayuda = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,6 +54,17 @@ Partial Class FormAyuda
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(360, 30)
         Me.Panel1.TabIndex = 0
+        '
+        'Ayuda
+        '
+        Me.Ayuda.AutoSize = True
+        Me.Ayuda.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Ayuda.ForeColor = System.Drawing.Color.Silver
+        Me.Ayuda.Location = New System.Drawing.Point(33, 4)
+        Me.Ayuda.Name = "Ayuda"
+        Me.Ayuda.Size = New System.Drawing.Size(53, 19)
+        Me.Ayuda.TabIndex = 2
+        Me.Ayuda.Text = "Ayuda"
         '
         'Panel2
         '
@@ -193,17 +204,6 @@ Partial Class FormAyuda
         Me.Button1.TabIndex = 0
         Me.Button1.Text = " "
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Ayuda
-        '
-        Me.Ayuda.AutoSize = True
-        Me.Ayuda.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Ayuda.ForeColor = System.Drawing.Color.Silver
-        Me.Ayuda.Location = New System.Drawing.Point(33, 4)
-        Me.Ayuda.Name = "Ayuda"
-        Me.Ayuda.Size = New System.Drawing.Size(53, 19)
-        Me.Ayuda.TabIndex = 2
-        Me.Ayuda.Text = "Ayuda"
         '
         'FormAyuda
         '
