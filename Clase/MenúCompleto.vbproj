@@ -85,10 +85,17 @@
     <Compile Include="bolsa solidaria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="conexion.vb" />
     <Compile Include="Contratar.Designer.vb">
       <DependentUpon>Contratar.vb</DependentUpon>
     </Compile>
     <Compile Include="Contratar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estudiantes.Designer.vb">
+      <DependentUpon>Estudiantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estudiantes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -136,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Contratar.resx">
       <DependentUpon>Contratar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estudiantes.resx">
+      <DependentUpon>Estudiantes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
