@@ -85,12 +85,19 @@
     <Compile Include="bolsa solidaria.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="conexion.vb" />
     <Compile Include="Contratar.Designer.vb">
       <DependentUpon>Contratar.vb</DependentUpon>
     </Compile>
     <Compile Include="Contratar.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsEstudiantes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstudiantes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEstudiantes.vb">
+      <DependentUpon>dsEstudiantes.xsd</DependentUpon>
     </Compile>
     <Compile Include="Estudiantes.Designer.vb">
       <DependentUpon>Estudiantes.vb</DependentUpon>
@@ -164,6 +171,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="dsEstudiantes.xsc">
+      <DependentUpon>dsEstudiantes.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstudiantes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstudiantes.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEstudiantes.xss">
+      <DependentUpon>dsEstudiantes.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

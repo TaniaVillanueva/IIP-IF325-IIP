@@ -57,8 +57,7 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jonat\OneDrive\Docum"& _ 
-            "entos\DESKTOP-4AAROTR.mdf;Integrated Security=True;Connect Timeout=30")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-4AAROTR;Initial Catalog=Estudiantes;Integrated Security=True")>  _
         Public ReadOnly Property conexión() As String
             Get
                 Return CType(Me("conexión"),String)
